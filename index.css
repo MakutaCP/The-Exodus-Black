@@ -1,9 +1,21 @@
 h1 {
-    background-color: antiquewhite;
-    color: royalblue;
+    background-color: black;
+    color: white;
+    font-family: serif;
+    text-align: center;
+    margin-top: 0%;
+    padding-top: 0%;
 }
 
 p {
   background-color: slategray;
   color: azure;
 }
+
+.nav {
+   color: cadetblue;
+
+}
+/*---------
+media querys
+---------*/
