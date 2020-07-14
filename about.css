@@ -55,7 +55,7 @@ li a:last-child {
 }
 
 footer {
-   position: fixed;
+   position: static;
    bottom: 0;
    text-align: center;
    display: block;
