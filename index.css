@@ -1,17 +1,11 @@
+/*--main styling--*/
 html body {
   margin: 0;
   padding: 0;
 }
 
-/*img {
-  width: 100%;
-}*/
 header {
-  display: flex;
   background-color: black;
-  justify-content: space-between;
-  padding: 0 .5em;
-  align-items: center;
 }
 
 h1 {
@@ -24,17 +18,11 @@ h1 {
 }
 
 p {
-  background-color: slategray;
-  color: azure;
   margin: 0;
-  
 }
 
 /*---nav styles---*/
- nav {
-  flex: 1 1 70%;
-  text-align: right;
- }
+ 
 
 ul {
    border: 1px solid grey;
@@ -42,32 +30,40 @@ ul {
    background-color: black;
    margin: 0;
    padding: 0;
-   background-image: url(images/Stars\ in\ the\ sky.jpg);
 }
- li {
+li {
    text-align: center;
    border-bottom: 1px solid grey;
    font-size: 1.4em;
- }
+}
 
- li a {
+li a {
  display: block;
  text-decoration: none;
  color: white;
- }
+}
 
- li a:last-child {
+a :hover {
+  color: blue;
+}
+a :active {
+  background-image: url(images/Stars\ in\ the\ sky.jpg);
+}
+
+li a:last-child {
    border: none;
- }
+}
 
- footer {
+footer {
    position: fixed;
    bottom: 0;
    text-align: center;
    display: block;
    width: 100%;
    margin: 0;
- }
+}
+
+
 /*--media querys--*/
 
 @media (min-width: 750px) {
@@ -79,6 +75,26 @@ ul {
     text-align: right;
     overflow: hidden;
     vertical-align: top;
-    
+  }
+
+  header {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    padding: 0 .5em;
+    align-items: center;
+  }
+
+  nav {
+    flex: 1 1 70%;
+    text-align: right;
+  }
+
+  ul {
+    border: none;
+  }
+
+  li {
+    margin: 0 5px 0 5px;
   }
 }
