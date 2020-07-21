@@ -21,16 +21,11 @@ h2 {
   display: flex;
   font-family: serif;
   justify-content: center;
+  margin-top: 0;
+  padding: 0;
+  color: white;
 }
 
-img {
- border-radius: 10px;
- display: block;
- margin-left: auto;
- margin-right: auto;
- width: 80%;
- max-height: 80%;
-}
 
 p {
   margin: 0;
@@ -73,13 +68,23 @@ li a:last-child {
 }
 
 footer {
-   position: static;
+   position: fixed;
    bottom: 0;
    text-align: center;
    display: block;
    width: 100%;
    margin: 0;
    background-color: cornflowerblue;
+}
+
+/*--Page Specific style--*/
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
 }
 
 
