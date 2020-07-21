@@ -146,11 +146,33 @@ footer {
   }
 
   .top {
-    width: 50%;
-    justify-self: left;
+    justify-content: left;
+    width: 45%;
+    margin: 5px;
+  }
+
+  .about {
+    width: 45%;
+    justify-content: right;
+    margin: 5px;
   }
 }
 
  @media (min-width: 1500px){
+   
+   .top {
+    justify-content: left;
+    width: 30%;
+   }
+
+   .about {
+     justify-content: center;
+     width: 30%;
+   }
+
+   .tickets {
+     justify-content: right;
+     width: 30%;
+   }
    
  }
