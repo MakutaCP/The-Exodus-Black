@@ -43,10 +43,10 @@ li a {
  color: white;
 }
 
-a :hover {
+a:hover {
   color: blue;
 }
-a :active {
+a:active {
   background-image: url(images/Stars\ in\ the\ sky.jpg);
 }
 
