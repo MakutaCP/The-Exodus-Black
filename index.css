@@ -212,20 +212,45 @@ main {
 }
 
  @media (min-width: 1500px){
-   
+    
+
+    h2 {
+    font-size: 2.5em;
+    }  
+
    .top {
     justify-content: left;
     width: 30%;
+    order: initial;
+    font-size: 1.4em;
    }
 
    .about {
      justify-content: center;
      width: 30%;
+     order: initial;
+     font-size: 1.4em;
    }
 
    .tickets {
      justify-content: right;
      width: 30%;
+     order: initial;
+     font-size: 1.4em;
+   }
+
+   .pathfinder {
+     width: 30%;
+     order: initial;
+   }
+
+   .nebula {
+     width: 30%;
+     order: initial;
    }
    
+   .galaxy {
+     width: 30%;
+     order: initial;
+   }
  }
