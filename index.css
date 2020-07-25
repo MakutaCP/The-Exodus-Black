@@ -23,7 +23,7 @@ h2 {
   justify-content: center;
   margin: 0;
   padding: 0 0 15px 0;
-  color: black;
+  color: white;
 }
 
 
@@ -80,28 +80,55 @@ footer {
 
 /*--Page Specific style--*/
 
+main {
+ background-image: url(Images/Earth.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+}
+
 .flex-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 200px;
-  width: 100%;
 }
 
 .top {
-  background-color:red;
-  width: 100%;
+  width: 95%;
+  font-size: large;
+  padding: 5px;
+  margin: 5px;
+  color: white;
 }
 
 .about {
-  background-color:green;
-  width: 100%;
+  width: 95%;
+  font-size: large;
+  padding: 5px;
+  margin: 5px;
+  color: white;
 }
 
 .tickets {
-  background-color: powderblue;
-  width: 100%;
+  width: 95%;
+  font-size: larger;
+  padding: 5px;
+  margin: 5px;
+  color: white;
+}
+
+.pathfinder {
+  height: 300px;
+  width: 300px;
+}
+
+.nebula {
+  border: 5px solid black;
+}
+
+.galaxy {
+  border: 5px solid black;
 }
 
 
@@ -155,6 +182,10 @@ footer {
     width: 45%;
     justify-content: right;
     margin: 5px;
+  }
+
+  .tickets{
+    width: 45%;
   }
 }
 
