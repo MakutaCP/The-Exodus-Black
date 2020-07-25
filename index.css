@@ -71,11 +71,12 @@ li a:last-child {
 footer {
    position: fixed;
    bottom: 0;
-   text-align: center;
+   justify-self: center;
    display: block;
    width: 100%;
    margin: 0;
-   background-color: cornflowerblue;
+   color: white;
+   background-color: black;
 }
 
 /*--Page Specific style--*/
@@ -129,6 +130,7 @@ main {
 
 .galaxy {
   border: 5px solid black;
+  background-color: black;
 }
 
 
@@ -176,16 +178,36 @@ main {
     justify-content: left;
     width: 45%;
     margin: 5px;
+    order: 1;
   }
 
   .about {
     width: 45%;
     justify-content: right;
     margin: 5px;
+    order: 4;
   }
 
   .tickets{
     width: 45%;
+    order: 5;
+  }
+
+  .pathfinder {
+    width: 45%;
+    order: 2;
+  }
+
+  .nebula {
+   width: 45%;
+   margin-top: 20px;
+   order: 3;
+  }
+
+  .galaxy {
+    width: 45%;
+    margin-top: 20px;
+    order: 6;
   }
 }
 
