@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-   <title>Exodus Black</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Exodus Black</title>
    <link rel = "stylesheet" href = "tickets.css" />
   </head>
 
@@ -23,6 +26,7 @@
         <h2>Tickets for the Exodus Black</h2>
         <p>Required fields are followed by <strong><abbr title="required">*</abbr></strong></p>
          <section>
+           <h3>Basic Info:</h3>
            <p>
              <label for="firstName">
               <span>First Name: </span>
@@ -30,13 +34,75 @@
              </label>
              <input type="text" id="firstName" name="firstName">
            </p>
+
+           <p>
+            <label for="lastName">
+             <span>Last Name: </span>
+             <strong><abbr title="required">*</abbr></strong>
+            </label>
+            <input type="text" id="lastName" name="lastName">
+          </p>
+
+          <p>
+            <label for="email">
+             <span>Email: </span>
+             <strong><abbr title="required">*</abbr></strong>
+            </label>
+            <input type="email" id="email" name="email">
+          </p>
          </section>
+
+         <section>
+           <h3>Seating Info: <strong><abbr title="required">*</abbr></strong></h3>
+           <p>
+            <label for="firstClass">
+              <span>First Class:</span>
+            </label>
+            <input type="radio" id="firstClass" name="seating">
+
+            <label for="secondClass">
+              <span>Second Class:</span>
+            </label>
+            <input type="radio" id="secondClass" name="seating">
+
+            <label for="thirdClass">
+              <span>Third Class:</span>
+            </label>
+            <input type="radio" id="thirdClass" name="seating">
+           </p>
+         </section>
+
+         <section>
+           <h3>Occupation: <strong><abbr title="required">*</abbr></strong></h3>
+          <p>
+           <label for="colonist">
+             <span>Colonist:</span>
+           </label>
+           <input type="radio" id="colonist" name="occupation">
+
+           <label for="agriculture">
+             <span>Agriculture:</span>
+           </label>
+           <input type="radio" id="agriculture" name="occupation">
+
+           <label for="engineer">
+             <span>Engineer:</span>
+           </label>
+           <input type="radio" id="engineer" name="occupation">
+
+           <label for="scientist">
+            <span>Scientist:</span>
+          </label>
+          <input type="radio" id="scientist" name="occupation">
+          </p>
+        </section>
       </form>
     </main>
 
   
       <footer>
         <p>&copy;2020 C.D. Palmer, Exodus Black</p>
+        <script src="tickets.js"></script>
       </footer>
     </div>
   </body>
