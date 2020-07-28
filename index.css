@@ -69,14 +69,19 @@ li a:last-child {
 }
 
 footer {
-   position: fixed;
    bottom: 0;
-   justify-self: center;
    display: block;
    width: 100%;
+   text-align: center;
    margin: 0;
    color: white;
    background-color: black;
+}
+
+footer > p{
+  text-align: center;
+  width: 100%;
+  display: block;
 }
 
 /*--Page Specific style--*/
@@ -134,7 +139,7 @@ main {
 }
 
 
-/*--media querys--*/
+/*--media queries--*/
 
 @media (min-width: 750px) {
   h1 {
