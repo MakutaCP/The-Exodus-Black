@@ -216,5 +216,7 @@ footer > p{
 }
 
  @media (min-width: 1500px){
-   
+   main p{
+     font-size: larger;
+   }
  }

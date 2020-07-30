@@ -60,10 +60,44 @@ footer {
    text-align: center;
    display: block;
    width: 100%;
-   margin: 0;
+   margin: 10px 0px 0px 0px;
+   color: white;
+   background-color: black;
+   padding: 0;
 }
 
+h2 {
+  margin: 25px;
+}
 
+h3 {
+  margin: 30px;
+  font-size: larger;
+}
+
+span {
+  margin: 15px 15px 10px 25px;
+}
+
+section p {
+ margin: 10px;
+}
+
+textarea {
+  margin: 5px 5px 5px 35px;
+}
+
+.field {
+  margin: 10px 5px 5px 35px;
+}
+
+button {
+  margin: 10px 5px 5px 35px;
+}
+
+#ticketNumb {
+  margin: 10px 5px 5px 35px;
+}
 /*--media querys--*/
 
 @media (min-width: 750px) {
@@ -100,5 +134,8 @@ footer {
 }
 
  @media (min-width: 1500px){
-   
+   main {
+     text-align: center;
+     font-size: larger;
+   }
  }
