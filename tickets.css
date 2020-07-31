@@ -66,6 +66,8 @@ footer {
    padding: 0;
 }
 
+/*--page specific syles--*/
+
 h2 {
   margin: 25px;
 }
@@ -131,11 +133,15 @@ button {
   li {
     margin: 0 5px 0 5px;
   }
+  main {
+    min-height: 935px;
+  }
 }
 
  @media (min-width: 1500px){
    main {
      text-align: center;
      font-size: larger;
+     min-height: auto;
    }
  }
