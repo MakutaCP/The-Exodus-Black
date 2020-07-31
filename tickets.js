@@ -1,6 +1,6 @@
 
 
-let ranNumb = Math.floor(Math.random() * 10000) +1;
+let ranNumb = Math.floor(Math.random() * 5000) +1;
 
 const sb = document.getElementById("submit");
  sb.addEventListener('click', function (event) {
@@ -10,12 +10,6 @@ const sb = document.getElementById("submit");
 function responseNumb() {
   alert("Checking your ticket");
   let tickNumber = document.getElementById("ticketNumb").value;
-  if (tickNumber < 0){
-    alert("Invalid ticket number. Please try again.");
-  }
-  if (tickNumber > 5000){
-    alert("Invalid ticket number. Please try again.");
-  }
   if (tickNumber > 4500 && tickNumber < 5000){
     alert("Flight has been delayed indefinatly due to cockpit failure.");
   }
@@ -42,6 +36,9 @@ function responseNumb() {
   }
   if (tickNumber > 0 && tickNumber < 1000){
     alert("Flight in progress.");
+  }
+  if (tickNumber < 0 || tickNumber > 5000){
+    alert("Invalid ticket number. Please try again.");
   }
   else {
     alert("You are the last survivor of the human race. Thank you for giving us your location.")
